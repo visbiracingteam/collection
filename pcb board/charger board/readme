@@ -1,1 +1,5 @@
+Here are two charger board versions. Ver2 is updated according to the points noticed after Ver1 completes testing.
+
+The charger board is a safety board that controls the charging of the accumulator by using the IMD and AMS error. 
+It is designed to generate a well-shaped analog signal by generating a falling edge and a rising edge signal with a calculated delay.
 
