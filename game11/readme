@@ -1,1 +1,33 @@
+# Socket-based Pong Game
 
+A multiplayer Pong game playable over a local network in real-time, rendered in the terminal.
+
+## Features
+
+- Real-time multiplayer over local network
+- Terminal-based ASCII rendering
+- Multi-threaded client and server
+- Windows socket (Winsock2) networking
+- Smooth 60 FPS gameplay
+
+## How to Play
+
+1. Start the server: `./server.exe`
+2. Connect two clients: `./client.exe` (enter server IP: 127.0.0.1)
+3. Player 1 controls left paddle with W/S keys
+4. Player 2 controls right paddle with W/S keys
+5. Press Q to quit
+
+## Technical Details
+
+- **Language**: C++11
+- **Networking**: Winsock2 (Windows sockets)
+- **Rendering**: ASCII art in terminal
+- **Multi-threading**: std::thread
+- **Protocol**: TCP/IP with custom message format
+
+## Building
+
+### Windows with MinGW:
+```bash
+make all
