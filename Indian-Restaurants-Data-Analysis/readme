@@ -1,1 +1,68 @@
 
+# 📊 Project Overview
+
+This project leverages **Power BI** to create a comprehensive analytics dashboard for Indian restaurant data. The dashboard enables stakeholders to explore key metrics such as restaurant distribution, customer ratings, cuisine preferences, and cost analysis across major Indian cities.
+
+Key datasets analyzed include:
+- Restaurant ratings and customer votes
+- Cuisine type popularity
+- Geographic distribution across cities and localities
+- Cost analysis by region
+
+---
+
+## 🎯 Objectives
+
+- Develop an end-to-end Power BI report based on real-world restaurant data
+- Identify key trends in customer preferences and dining habits
+- Analyze regional variations in restaurant performance
+- Provide actionable insights for business decision-making
+- Create an interactive, user-friendly dashboard experience
+
+---
+
+## 🔍 Key Insights
+
+### 🏆 Top Restaurants
+| Restaurant | Sum of Ratings |
+|------------|----------------|
+| Kanti Sweets | 267 |
+| Wow! Momo | 247 |
+| Barbeque Nation | 212 |
+| Taco Bell | 183 |
+
+### 🏙️ City-wise Analysis
+- **Delhi** leads with **223K votes** (28.39% of total)
+- **Bangalore** follows with **102K votes** (12.97%)
+- **Hyderabad** ranks third with **92K votes** (11.63%)
+
+### 🍛 Cuisine Popularity
+- **North Indian** cuisine dominates with **1163 total ratings**
+- **Chinese** cuisine shows strong presence
+- **Fast Food** and **Mughlai** cuisines also perform well
+
+### 💰 Cost Insights
+- **South Delhi** has the highest sum of cost (560K)
+- **South Bangalore** follows (306K)
+- **Gurgaon** ranks third (296K)
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Category | Tools |
+|----------|-------|
+| **Visualization** | Microsoft Power BI Desktop |
+| **Data Modeling** | DAX (Data Analysis Expressions) |
+| **Data Transformation** | Power Query |
+| **Data Source** | Indian Restaurant Dataset (CSV) |
+
+---
+
+## 📁 Repository Structure
+Indian-Restaurants-Data-Analysis/
+│
+├── Indian Restaurant Data Analytics.pbix # Power BI report file
+├── Indian Restaurant Data Analytics.pdf # Dashboard snapshot
+├── restaurants.csv # Source dataset
+├── README.md # Project documentation
