@@ -1,0 +1,51 @@
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.user
+*.suo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Game specific
+scores.txt
+highscore.txt
+*.save
+*.cfg
+*.conf
