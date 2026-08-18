@@ -1,8 +1,3 @@
-This Chess environment is based on https://github.com/patrik-ha/explainable-minichess
-
-Rules and Game: https://greenchess.net/rules.php?v=microchess
-
-More information: https://en.wikipedia.org/wiki/Microchess
 
 ## Microchess Agents 
 This project explores intelligent gameplay on a compact 5×4 Microchess board, where classic chess dynamics shrink into a tighter, trickier arena. I implemented multiple agents using minimax search, heuristic evaluation, and (optionally) learning-based strategies. The environment, agents, and autograding pipeline were provided as part of the assignment framework.
